@@ -24,7 +24,7 @@ class Test_LoginFlow:
             options.add_argument("--ignore-certificate-errors")
             options.add_argument("--ignore-ssl-errors")
             options.add_experimental_option("detach", True)
-            self.driver = webdriver.Remote(command_executor="192.168.200.126",
+            self.driver = webdriver.Remote(command_executor="http://192.168.200.126:4444/wd/hub",
                                            desired_capabilities={'browserName': 'chrome',
                                                                  'javascriptEnabled': True})
         else:
