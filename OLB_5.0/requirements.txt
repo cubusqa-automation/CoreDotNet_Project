@@ -1,0 +1,5 @@
+pytest==5.2.1
+selenium==3.141.0
+pymongo[srv]==3.9.0
+allure-pytest==2.8.6
+pytest-xdist==1.30.0
