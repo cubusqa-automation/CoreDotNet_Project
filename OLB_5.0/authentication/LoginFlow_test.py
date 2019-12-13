@@ -17,7 +17,7 @@ class Test_LoginFlow:
 
     @staticmethod
     def invoke_browser(self):
-        environment = "Onpremise"
+        environment = "cloud"
 
         if environment == "cloud":
             options = webdriver.ChromeOptions()
